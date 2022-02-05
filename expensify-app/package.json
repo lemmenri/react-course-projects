@@ -7,7 +7,7 @@
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server",
-    "test": "jest"
+    "test": "jest --config=jest.config.json"
   },
   "dependencies": {
     "@babel/core": "^7.16.12",
@@ -16,6 +16,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@reduxjs/toolkit": "^1.7.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.3",
@@ -23,11 +24,15 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^6.5.1",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.2",
     "jest": "^27.4.7",
+    "jest-enzyme": "^7.1.2",
     "live-server": "^1.2.1",
     "moment": "^2.29.1",
     "node-sass": "^7.0.1",
     "normalize.css": "^8.0.1",
+    "raf": "^3.4.1",
     "react": "^17.0.2",
     "react-dates": "^21.8.0",
     "react-dom": "^17.0.2",
